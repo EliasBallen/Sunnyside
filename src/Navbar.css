@@ -1,0 +1,105 @@
+.navbar{
+    height: 150px;
+}
+.navItem{
+    display:inline-block;
+    margin: 0 30px;
+    color:white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.headerLogo{
+    margin-top: 50px;
+    padding-right: 500px;
+    float: left;    
+}
+.headerLogo img{
+    width: 200px;
+    height: auto;
+}
+.iconhamburger{
+    float: right;
+    display: none;
+}
+.navbarOptions{
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.contact{
+    font-family:"Fraunces",serif;
+    
+    font-size: 1.2rem;
+    color:black;
+    background-color: white;
+    border-radius: 20%/50%;
+    padding: 20px 40px;
+}
+.contact:hover{
+    color:white;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+/**************click event****************/
+.floatMenu{
+    background-image: url("../public/images/dialog.svg");
+    aspect-ratio: 255/268;
+    background-repeat: no-repeat;
+    width: 690px;
+    position:relative;
+    top:95px;
+    left:30px;
+}
+.floatOption{
+    position: absolute;
+    top:200px;
+    right: 210px;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.floatOption div{
+    text-align: center;
+    font-family: sans-serif;
+    height: 90px;
+    margin-top:15px;
+    font-weight: 500;
+    color:rgb(0, 0, 0,0.5)
+}
+.floatContact{
+    
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 20%/50%;
+    margin-top:0px;
+    padding-top: 50px;
+    width: 300px;
+}
+.floatContact a{
+    font-family:serif;
+    font-weight: bold;
+    color:black;
+}
+/*******************************/
+
+@media(max-width:375px){
+    .navbarOptions{
+        display: none;
+    }
+    .iconhamburger{
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 60px;
+    }
+    .iconhamburger img{
+        width: 50px;
+    }
+    .headerLogo{
+        padding-right: 200px;
+    }
+    .title h1{
+        font-size: 4rem;
+        margin-top: 70px;
+    }
+    .title img{
+        margin-top: 110px;
+        width: 10%;
+    }
+}
